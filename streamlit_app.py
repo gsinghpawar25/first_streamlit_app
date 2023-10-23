@@ -49,7 +49,7 @@ streamlit.write('The user entered ', fruit_choice)
 
 
 def get_fruit_load_list():
-  with mycnx.cursor as my_curr:
+  with my_cnx.cursor as my_curr:
     my_curr.execute("select * from pc_rivery_db.public.fruit_load_list")
     return my_curr.fetchall()
 
