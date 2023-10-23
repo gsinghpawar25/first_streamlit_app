@@ -51,7 +51,7 @@ my_cur = my_cnx.cursor()
 
 
 
-streamlit.stop()
+
 
 
 
