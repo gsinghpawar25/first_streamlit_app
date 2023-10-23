@@ -50,3 +50,5 @@ streamlit.dataframe(my_data_row)
 #streamlit.text("select * from pc_rivery_db.public.fruit_load_list")
 #streamlit.text(my_data_row)
 
+my_cur.execute("insert into fruit_load_list values ('from streamlit')")
+
