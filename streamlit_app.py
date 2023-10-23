@@ -43,6 +43,6 @@ my_cur.execute("select * from pc_rivery_db.public.fruit_load_list")
 my_data_row = my_cur.fetchall()
 streamlit.header("Fruit load list contains:")
 streamlit.dataframe(my_data_row)
-streamlit.text("select * from pc_rivery_db.public.fruit_load_list")
-streamlit.text(my_data_row)
+#streamlit.text("select * from pc_rivery_db.public.fruit_load_list")
+#streamlit.text(my_data_row)
 
