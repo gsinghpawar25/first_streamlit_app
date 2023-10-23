@@ -45,8 +45,8 @@ except URLError as e:
   
 
 streamlit.write('The user entered ', fruit_choice)
-#my_cnx = snowflake.connector.connect(**streamlit.secrets["snowflake"])
-#my_cur = my_cnx.cursor()
+
+
 
 def get_fruit_load_list():
   with mycnx.cursor as my_curr:
