@@ -68,7 +68,7 @@ if streamlit.button('Get Fruitload List'):
   my_data_rows =get_fruit_load_list()
   streamlit.dataframe(my_data_rows)
   
-streamlit.dataframe(my_data_row)
+streamlit.dataframe(my_data_rows)
 #streamlit.text("select * from pc_rivery_db.public.fruit_load_list")
 #streamlit.text(my_data_row)
 add_my_fruit = streamlit.text_input('What fruit would you like to add?')
